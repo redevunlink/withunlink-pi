@@ -80,7 +80,7 @@ border: 10px solid;
 </head>
 <body>
 
-<iframe id="myVideo" src="https://www.youtube-nocookie.com/embed/MEdk239VLE8?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="myVideo" src="https://www.youtube-nocookie.com/embed/TkQp9VESsK0?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="content2">
   현재 곡 : <span id="songid"></span>
   </div>
