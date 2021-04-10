@@ -108,24 +108,18 @@ border: 10px solid;
     
     /* Rollin */
     document.getElementById("songid").innerHTML = "Rollin";
-    document.getElementById("ly1").innerHTML = "Rollin";
-    document.getElementById("ly2").innerHTML = "작사 - 브레이브걸스<br>작곡 - 브레이브걸스";
+    document.getElementById("ly1").innerHTML = "Rollin<br>작사 - 브레이브걸스<br>작곡 - 브레이브걸스";
 
    setTimeout(function() {
-  document.getElementById("ly1").innerHTML = '<span class="undone">그날을 잊지 못해 babe</span>';
-   document.getElementById("ly1").innerHTML = '<span class="undone">날 보며 환히 웃던 너의 미소에</span>';
+  document.getElementById("ly1").innerHTML = '<span class="undone">그날을 잊지 못해 babe</span><br><span class="undone">날 보며 환히 웃던 너의 미소에</span>';
         setTimeout(function() {
-  document.getElementById("ly1").innerHTML = '<span class="done">그날을 잊지 못해 babe</span>';
-   document.getElementById("ly1").innerHTML = '<span class="undone">날 보며 환히 웃던 너의 미소에</span>';
+  document.getElementById("ly1").innerHTML = '<span class="done">그날을 잊지 못해 babe</span><br><span class="undone">날 보며 환히 웃던 너의 미소에</span>';
         setTimeout(function() {
-  document.getElementById("ly1").innerHTML = '<span class="done">날 보며 환히 웃던 너의 미소에</span>';
-   document.getElementById("ly1").innerHTML = '<span class="undone">홀린듯 Im fall in love</span>';
+  document.getElementById("ly1").innerHTML = '<span class="done">날 보며 환히 웃던 너의 미소에</span><br><span class="undone">홀린듯 Im fall in love</span>';
         setTimeout(function() {
-  document.getElementById("ly1").innerHTML = '<span class="done">홀린듯 Im fall in love</span>';
-   document.getElementById("ly1").innerHTML = '<span class="undone">But 너무 쪽팔림에</span>';
+  document.getElementById("ly1").innerHTML = '<span class="done">홀린듯 Im fall in love</span><br><span class="undone">But 너무 쪽팔림에</span>';
         setTimeout(function() {
-  document.getElementById("ly1").innerHTML = '<span class="done">But 너무 쪽팔림에</span>';
-   document.getElementById("ly1").innerHTML = '<span class="undone">한마디 말도 못해 babe</span>';
+  document.getElementById("ly1").innerHTML = '<span class="done">But 너무 쪽팔림에</span><br><span class="undone">한마디 말도 못해 babe</span>';
 }, 1000)
 }, 2000)
 }, 2000)
